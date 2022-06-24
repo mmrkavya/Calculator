@@ -1,0 +1,94 @@
+<html>
+<head>
+    <link rel="stylesheet" href="GL_calculator_kavya_style.css">
+    <script language="javascript" src="GL_calculator_kavya_jsFile.js">  
+    </script>
+</head>
+<body class="main">
+    
+    <div id="calculator">
+       
+        <table class="tableClass">
+            <caption>CALCULATOR</caption>
+            <tr>
+                <td class="displayValue" colspan="4" ><div id="display"></div></td>
+            </tr>
+            <tr>
+                <td class="displayValue" colspan="4"><div id="currentValue"></div></td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calButtonOp" onclick="calButtonFuncClearAllValue(this)" >C</button>
+                </td>
+                <td>
+                    <button class="calButtonOp" onclick="calButtonFuncClearValue(this)">CE</button>
+                </td>
+                <td >
+                    <button class="calButtonOp" onclick="calButtonFuncOperator(this)" value="%" >%</button>
+                </td>
+                <td >
+                    <button class="calButtonOp" onclick="calButtonFuncOperator(this)" value="/" >/</button>
+                </td>
+            </tr>  
+            <tr>
+                <td >
+                    <button class="calButton" onclick="calCurrentValue(this)" value="1">1</button>
+                </td>
+                <td >
+                    <button  class="calButton" onclick="calCurrentValue(this)" value="2">2</button>
+                </td>
+                <td >
+                    <button class="calButton" onclick="calCurrentValue(this)" value="3">3</button>
+                </td>
+                <td>
+                    <button class="calButtonOp" onclick="calButtonFuncOperator(this)" value="*" >*</button>
+                </td>
+            </tr>  
+            <tr>
+                <td>
+                    <button class="calButton" onclick="calCurrentValue(this)" value="4">4</button>
+                </td>
+                <td>
+                    <button class="calButton" onclick="calCurrentValue(this)" value="5">5</button>
+                </td>
+                <td>
+                    <button class="calButton" onclick="calCurrentValue(this)" value="6">6</button>
+                </td>
+                <td>
+                    <button  class="calButtonOp" onclick="calButtonFuncOperator(this)" value="-" >-</button>
+                </td>
+            </tr>  
+            <tr>
+                <td>
+                    <button class="calButton" onclick="calCurrentValue(this)" value="7">7</button>
+                </td>
+                <td>
+                    <button class="calButton" onclick="calCurrentValue(this)" value="8">8</button>
+                </td>
+                <td>
+                    <button class="calButton" onclick="calCurrentValue(this)" value="9">9</button>
+                </td>
+                <td>
+                    <button class="calButtonOp" onclick="calButtonFuncOperator(this)" value="+" >+</button>
+                </td>
+            </tr>  
+            <tr>
+                <td class="calButton">
+                    <button></button>
+                </td>
+                <td >
+                    <button class="calButton" onclick="calCurrentValue(this)" value="0">0</button>
+                </td>
+                <td class="calButton">
+                    <button></button>
+                </td>
+                <td >
+                    <button class="calButtonOp" onclick="calButtonFuncOperator(this)" value="=" >=</button>
+                </td>
+            </tr>   
+            
+        </table>
+    
+    </div>
+</body>
+</html>
